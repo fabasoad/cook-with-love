@@ -28,7 +28,7 @@ exports[`should render LanguageItem correctly 1`] = `
         />
         <LanguageTextItem
           code="gb"
-          text="Basic"
+          text="cook-with-love-languages-basic"
         />
         <LanguageTextItem
           code="ru"

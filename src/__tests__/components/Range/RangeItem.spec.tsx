@@ -7,9 +7,7 @@ test('should render RangeItem correctly', () => {
   const wrapper: ShallowWrapper = shallow(<RangeItem
     img="test-img"
     name="test-name"
-    subtitle="test-subtitle"
     title="test-title"
-    url="test-url"
   />)
   expect(wrapper).toMatchSnapshot()
 })

@@ -14,7 +14,7 @@ export default function LanguagesMain() {
         <div className="row">
           <div className="language-list col text-center">
             <LanguageTextItem code="jp" text="JLPT N5" />
-            <LanguageTextItem code="gb" text="Basic" />
+            <LanguageTextItem code="gb" text={t('cook-with-love-languages-basic')} />
             <LanguageTextItem code="ru" text={t('cook-with-love-languages-native')} />
             <LanguageTextItem code="ua" text={t('cook-with-love-languages-native')} />
           </div>

@@ -13,7 +13,7 @@ beforeAll(() => {
 test('should render RangeMain correctly', () => {
   const wrapper: ShallowWrapper = shallow(<RangeMain />)
   expect(wrapper).toMatchSnapshot()
-  expect(tMock).toHaveBeenCalledTimes(35)
+  expect(tMock).toHaveBeenCalledTimes(1)
   expect(tMock).toHaveBeenNthCalledWith(1, 'cook-with-love-range-title')
   for (let i = 1; i < 34; i += 2) {
     expect(tMock).toHaveBeenNthCalledWith(

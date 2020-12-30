@@ -23,7 +23,7 @@ export function App(props: Props) {
       <Header />
       <MenuMain />
       <RangeMain />
-      <LanguagesMain />
+      {/* <LanguagesMain /> */}
       <FooterMain />
     </div>
   )

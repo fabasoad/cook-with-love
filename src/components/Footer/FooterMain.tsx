@@ -15,7 +15,7 @@ export default function FooterMain() {
           <hr />
         </div>
         <FooterContacts />
-        <FooterSocial />
+        {/* <FooterSocial /> */}
         <FooterInfo />
       </div>
     </div>

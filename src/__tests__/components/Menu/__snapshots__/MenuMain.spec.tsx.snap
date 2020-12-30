@@ -33,11 +33,7 @@ exports[`should render MenuMain correctly 1`] = `
         justify={false}
       >
         <MenuItem
-          name="about"
-          setActiveNavLink={[Function]}
-        />
-        <MenuItem
-          name="portfolio"
+          name="range"
           setActiveNavLink={[Function]}
         />
         <MenuItem

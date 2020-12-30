@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render RangeMain correctly 1`] = `
+<div
+  id="range"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="section-title text-center center"
+    >
+      <h2>
+        cook-with-love-range-title
+      </h2>
+      <hr />
+    </div>
+    <div
+      className="row"
+    >
+      <RangeItem
+        img="test-file-stub"
+        name="Markets"
+        subtitle="cook-with-love-range-markets-subtitle"
+        title="cook-with-love-range-markets-title"
+        url="https://markets.bitcoin.com/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Games"
+        subtitle="cook-with-love-range-casino-web-app-subtitle"
+        title="cook-with-love-range-casino-web-app-title"
+        url="https://games.bitcoin.com/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Games Admin"
+        subtitle="cook-with-love-range-casino-admin-web-app-subtitle"
+        title="cook-with-love-range-casino-admin-web-app-title"
+        url="https://games.bitcoin.com/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Games Android"
+        subtitle="cook-with-love-range-casino-android-app-subtitle"
+        title="cook-with-love-range-casino-android-app-title"
+        url="https://games.bitcoin.com/android"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Earnin"
+        subtitle="cook-with-love-range-earnin-subtitle"
+        title="cook-with-love-range-earnin-title"
+        url="https://www.earnin.com/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Prysm iPhone App"
+        subtitle="cook-with-love-range-prysm-subtitle"
+        title="cook-with-love-range-prysm-title"
+        url="https://www.prysm.com/software/iphone-app/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Southern Marine Agency Website"
+        subtitle="cook-with-love-range-sma-subtitle"
+        title="cook-with-love-range-sma-title"
+        url="https://drive.google.com/drive/folders/163jhUuVrBCEYQ503sa1Y1M7KG--1gwaj?usp=sharing"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="ALM Robot"
+        subtitle="cook-with-love-range-alm-robot-subtitle"
+        title="cook-with-love-range-alm-robot-title"
+        url="https://admhelp.microfocus.com/alm/en/12.60/online_help/Content/Admin/sa_robot_toc.htm"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="ALM"
+        subtitle="cook-with-love-range-alm-subtitle"
+        title="cook-with-love-range-alm-title"
+        url="https://www.microfocus.com/en-us/products/application-lifecycle-management/overview"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Lab Management"
+        subtitle="cook-with-love-range-alm-lab-management-subtitle"
+        title="cook-with-love-range-alm-lab-management-title"
+        url="https://admhelp.microfocus.com/alm/en/12.60/online_help/Content/lm_ag.htm"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Invebstor"
+        subtitle="cook-with-love-range-invebstor-subtitle"
+        title="cook-with-love-range-invebstor-title"
+        url="https://youtu.be/8wTcyZEtQx8"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Work+"
+        subtitle="cook-with-love-range-work-plus-subtitle"
+        title="cook-with-love-range-work-plus-title"
+        url="https://youtu.be/eRxTKZ0knsg"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="ARKA Website"
+        subtitle="cook-with-love-range-arka-subtitle"
+        title="cook-with-love-range-arka-title"
+        url="https://www.arka-media.de/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Deutsche Lieferadresse Website"
+        subtitle="cook-with-love-range-deutsche-lieferadresse-subtitle"
+        title="cook-with-love-range-deutsche-lieferadresse-title"
+        url="https://www.deutsche-lieferadresse.com/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Medisport Website"
+        subtitle="cook-with-love-range-medisport-subtitle"
+        title="cook-with-love-range-medisport-title"
+        url="http://medisport-garmisch.de/"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Print & Post Website"
+        subtitle="cook-with-love-range-print-and-post-subtitle"
+        title="cook-with-love-range-print-and-post-title"
+        url="#range"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Zakupki Website"
+        subtitle="cook-with-love-range-zakupki-subtitle"
+        title="cook-with-love-range-zakupki-title"
+        url="https://zakupki-de.com.ua/"
+      />
+    </div>
+  </div>
+</div>
+`;

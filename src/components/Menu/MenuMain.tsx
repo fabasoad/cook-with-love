@@ -40,8 +40,7 @@ export default function MenuMain() {
         <Navbar.Toggle className="navbar-dark" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav activeKey={activeNavLink} className="mr-auto">
-            <MenuItem setActiveNavLink={setActiveNavLink} name={'about'} />
-            <MenuItem setActiveNavLink={setActiveNavLink} name={'portfolio'} />
+            <MenuItem setActiveNavLink={setActiveNavLink} name={'range'} />
             <MenuItem setActiveNavLink={setActiveNavLink} name={'contact'} />
           </Nav>
           <Nav>

@@ -7,9 +7,7 @@ export default function Header() {
     <header className="header" id="header">
       <div className="header__text">
         <h1><Trans t={t}>cook-with-love-header-title</Trans></h1>
-        <h5 className="header__text-subtitle">{t('cook-with-love-header-occupation')}</h5>
-        <a className="btn btn-primary btn-lg" href="#about">{t('cook-with-love-header-about-me')}</a>
-        <a className="btn btn-primary btn-lg" href="#portfolio">{t('cook-with-love-header-portfolio')}</a>
+        <h5 className="header__text-subtitle">{t('cook-with-love-header-subtitle')}</h5>
       </div>
     </header>
   )

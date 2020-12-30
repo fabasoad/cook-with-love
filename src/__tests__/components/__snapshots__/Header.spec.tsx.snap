@@ -14,27 +14,13 @@ exports[`should render Header correctly 1`] = `
           [MockFunction] {
             "calls": Array [
               Array [
-                "cook-with-love-header-occupation",
-              ],
-              Array [
-                "cook-with-love-header-about-me",
-              ],
-              Array [
-                "cook-with-love-header-portfolio",
+                "cook-with-love-header-subtitle",
               ],
             ],
             "results": Array [
               Object {
                 "type": "return",
-                "value": "cook-with-love-header-occupation",
-              },
-              Object {
-                "type": "return",
-                "value": "cook-with-love-header-about-me",
-              },
-              Object {
-                "type": "return",
-                "value": "cook-with-love-header-portfolio",
+                "value": "cook-with-love-header-subtitle",
               },
             ],
           }
@@ -46,20 +32,8 @@ exports[`should render Header correctly 1`] = `
     <h5
       className="header__text-subtitle"
     >
-      cook-with-love-header-occupation
+      cook-with-love-header-subtitle
     </h5>
-    <a
-      className="btn btn-primary btn-lg"
-      href="#about"
-    >
-      cook-with-love-header-about-me
-    </a>
-    <a
-      className="btn btn-primary btn-lg"
-      href="#portfolio"
-    >
-      cook-with-love-header-portfolio
-    </a>
   </div>
 </header>
 `;

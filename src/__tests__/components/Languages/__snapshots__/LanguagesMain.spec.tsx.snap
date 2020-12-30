@@ -22,10 +22,9 @@ exports[`should render LanguageItem correctly 1`] = `
       <div
         className="language-list col text-center"
       >
-        <LaguageLinkItem
+        <LanguageTextItem
           code="jp"
           text="JLPT N5"
-          url="https://drive.google.com/file/d/1wDeulFdf9-8DBa_k0F8tiRUtdlG7mh3L/view?usp=sharing"
         />
         <LanguageTextItem
           code="gb"

@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-interface PortfolioItemProps {
+interface RangeItemProps {
   img: any
   name: string
   subtitle: string
@@ -8,10 +8,10 @@ interface PortfolioItemProps {
   url: string
 }
 
-export default function PortfolioItem(props: PortfolioItemProps) {
+export default function RangeItem(props: RangeItemProps) {
   return (
     <div className="col-sm-6 col-md-3 col-lg-3 web">
-      <div className="portfolio-item">
+      <div className="range-item">
         <div className="hover-bg text-center">
           <a href={props.url} title={props.name} rel="noopener noreferrer" target="_blank">
             <div className="hover-text">

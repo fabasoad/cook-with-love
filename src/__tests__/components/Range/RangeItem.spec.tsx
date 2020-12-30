@@ -1,10 +1,10 @@
 /// <reference types="jest" />
 import * as React from 'react'
 import { shallow, ShallowWrapper } from 'enzyme'
-import PortfolioItem from '../../../components/Portfolio/PortfolioItem'
+import RangeItem from '../../../components/Range/RangeItem'
 
-test('should render PortfolioItem correctly', () => {
-  const wrapper: ShallowWrapper = shallow(<PortfolioItem
+test('should render RangeItem correctly', () => {
+  const wrapper: ShallowWrapper = shallow(<RangeItem
     img="test-img"
     name="test-name"
     subtitle="test-subtitle"

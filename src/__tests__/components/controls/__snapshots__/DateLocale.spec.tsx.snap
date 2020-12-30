@@ -4,7 +4,7 @@ exports[`should render DateLocale with month in JP locale correctly 1`] = `
 <div
   className=""
 >
-  2019jp-business-card-year-singularjp-business-card-month-1
+  2019jp-cook-with-love-year-singularjp-cook-with-love-month-1
 </div>
 `;
 
@@ -12,7 +12,7 @@ exports[`should render DateLocale with month in non-JP locale correctly 1`] = `
 <div
   className=""
 >
-  gb-business-card-month-1 2019
+  gb-cook-with-love-month-1 2019
 </div>
 `;
 
@@ -20,7 +20,7 @@ exports[`should render DateLocale without month in JP locale correctly 1`] = `
 <div
   className=""
 >
-  2019jp-business-card-year-singular
+  2019jp-cook-with-love-year-singular
 </div>
 `;
 

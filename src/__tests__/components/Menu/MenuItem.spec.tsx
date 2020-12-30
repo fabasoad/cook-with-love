@@ -18,7 +18,7 @@ test('should render MenuItem correctly', () => {
   />)
   expect(wrapper).toMatchSnapshot()
   expect(tMock).toHaveBeenCalledTimes(1)
-  expect(tMock).toHaveBeenCalledWith(`business-card-menu-${name}`)
+  expect(tMock).toHaveBeenCalledWith(`cook-with-love-menu-${name}`)
 })
 
 test('should set active MenuItem correctly', () => {

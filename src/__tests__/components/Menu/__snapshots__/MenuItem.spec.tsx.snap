@@ -13,6 +13,6 @@ exports[`should render MenuItem correctly 1`] = `
   href="#test-menu-item"
   onClick={[Function]}
 >
-  business-card-menu-test-menu-item
+  cook-with-love-menu-test-menu-item
 </NavLink>
 `;

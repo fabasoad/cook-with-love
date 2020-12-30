@@ -14,7 +14,7 @@ import * as ru from './resources/ru.json'
 type ThunkLocaleAction = ThunkAction<void, AppState, unknown, Action<string>>
 
 const onLanguageChange = (t) => {
-  document.title = t('business-card-title')
+  document.title = t('cook-with-love-title')
 }
 
 export const loadLocale = (payload: Locale): AppActions => ({

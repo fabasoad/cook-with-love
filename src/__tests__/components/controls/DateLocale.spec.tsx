@@ -21,8 +21,8 @@ new Array<DateLocaleFixture>({
   locale: 'jp',
   expect: (toDoubleByteSpy, year, month) => {
     expect(tMock).toHaveBeenCalledTimes(2)
-    expect(tMock).toHaveBeenNthCalledWith(1, 'business-card-year-singular')
-    expect(tMock).toHaveBeenNthCalledWith(2, `business-card-month-${month}`)
+    expect(tMock).toHaveBeenNthCalledWith(1, 'cook-with-love-year-singular')
+    expect(tMock).toHaveBeenNthCalledWith(2, `cook-with-love-month-${month}`)
     expect(toDoubleByteSpy).toHaveBeenCalledWith(year.toString())
   }
 }, {
@@ -30,7 +30,7 @@ new Array<DateLocaleFixture>({
   locale: 'gb',
   expect: (toDoubleByteSpy, year, month) => {
     expect(tMock).toHaveBeenCalledTimes(1)
-    expect(tMock).toHaveBeenCalledWith(`business-card-month-${month}`)
+    expect(tMock).toHaveBeenCalledWith(`cook-with-love-month-${month}`)
     expect(toDoubleByteSpy).not.toHaveBeenCalled()
   }
 }).forEach((f) =>
@@ -64,8 +64,8 @@ new Array<DateLocaleFixture>({
   locale: 'jp',
   expect: (toDoubleByteSpy, year) => {
     expect(tMock).toHaveBeenCalledTimes(1)
-    expect(tMock).toHaveBeenCalledWith('business-card-year-singular')
-    expect(tMock).not.toHaveBeenCalledWith(expect.stringMatching(/^business-card-month-.*$/))
+    expect(tMock).toHaveBeenCalledWith('cook-with-love-year-singular')
+    expect(tMock).not.toHaveBeenCalledWith(expect.stringMatching(/^cook-with-love-month-.*$/))
     expect(toDoubleByteSpy).toHaveBeenCalledWith(year.toString())
   }
 }, {

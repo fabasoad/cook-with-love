@@ -8,7 +8,7 @@ exports[`should render FooterLocation correctly 1`] = `
     className="fa fa-map-marker-alt fa-2x"
   />
   <p>
-    business-card-contact-city
+    cook-with-love-contact-city
   </p>
 </div>
 `;

@@ -2,18 +2,12 @@ import * as React from 'react'
 import { connect } from 'react-redux'
 import { ThunkDispatch } from 'redux-thunk'
 
-import AboutMain from './About/AboutMain'
 import BackToTopButton from './BackToTopButton'
-import CertificatesMain from './Certificates/CertificatesMain'
-import EducationMain from './Education/EducationMain'
-import ExperienceMain from './Experience/ExperienceMain'
 import FooterMain from './Footer/FooterMain'
 import Header from './Header'
 import LanguagesMain from './Languages/LanguagesMain'
 import MenuMain from './Menu/MenuMain'
-import PortfolioMain from './Portfolio/PortfolioMain'
-import Resume from './Resume'
-import Skills from './Skills'
+import RangeMain from './Range/RangeMain'
 import { Locale, AppActions } from '../store/locale/types'
 import { AppState } from '../store/configureStore'
 
@@ -28,14 +22,8 @@ export function App(props: Props) {
       <BackToTopButton />
       <Header />
       <MenuMain />
-      <AboutMain />
-      <Resume />
-      <Skills />
-      <ExperienceMain />
-      <EducationMain />
-      <CertificatesMain />
-      <LanguagesMain />
-      <PortfolioMain />
+      <RangeMain />
+      {/* <LanguagesMain /> */}
       <FooterMain />
     </div>
   )

@@ -10,7 +10,7 @@ exports[`should render FooterInfo correctly 1`] = `
     <li>
       <img
         alt="Made by fabasoad"
-        src="https://img.shields.io/static/v1?label=made%20by&message=fabasoad&color=2c3e50&style=for-the-badge&logo=github"
+        src="https://img.shields.io/static/v1?label=made%20by&message=fabasoad&color=c56ddb&style=for-the-badge&logo=github"
       />
     </li>
     <li>
@@ -30,7 +30,7 @@ exports[`should render FooterInfo correctly 1`] = `
         pill={true}
         variant="light"
       >
-        business-card-version
+        cook-with-love-version
       </Badge>
     </li>
   </ul>

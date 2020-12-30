@@ -19,8 +19,8 @@ export function DateLocale(props: Props) {
   const { t } = useTranslation()
 
   const date: string = props.locale.code === 'jp'
-    ? props.converter.toDoubleByte(props.year.toString()) + t('business-card-year-singular') + (props.month ? t(`business-card-month-${props.month}`) : '')
-    : (props.month ? t(`business-card-month-${props.month}`) + ' ' : '') + props.year
+    ? props.converter.toDoubleByte(props.year.toString()) + t('cook-with-love-year-singular') + (props.month ? t(`cook-with-love-month-${props.month}`) : '')
+    : (props.month ? t(`cook-with-love-month-${props.month}`) + ' ' : '') + props.year
 
   return (
     <div className={props.className || ''}>{date}</div>

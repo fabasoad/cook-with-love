@@ -14,52 +14,26 @@ exports[`should render Header correctly 1`] = `
           [MockFunction] {
             "calls": Array [
               Array [
-                "business-card-header-occupation",
-              ],
-              Array [
-                "business-card-header-about-me",
-              ],
-              Array [
-                "business-card-header-portfolio",
+                "cook-with-love-header-subtitle",
               ],
             ],
             "results": Array [
               Object {
                 "type": "return",
-                "value": "business-card-header-occupation",
-              },
-              Object {
-                "type": "return",
-                "value": "business-card-header-about-me",
-              },
-              Object {
-                "type": "return",
-                "value": "business-card-header-portfolio",
+                "value": "cook-with-love-header-subtitle",
               },
             ],
           }
         }
       >
-        business-card-header-title
+        cook-with-love-header-title
       </Trans>
     </h1>
     <h5
       className="header__text-subtitle"
     >
-      business-card-header-occupation
+      cook-with-love-header-subtitle
     </h5>
-    <a
-      className="btn btn-primary btn-lg"
-      href="#about"
-    >
-      business-card-header-about-me
-    </a>
-    <a
-      className="btn btn-primary btn-lg"
-      href="#portfolio"
-    >
-      business-card-header-portfolio
-    </a>
   </div>
 </header>
 `;

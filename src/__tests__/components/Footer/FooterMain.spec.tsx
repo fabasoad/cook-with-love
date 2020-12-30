@@ -14,5 +14,5 @@ test('should render FooterMain correctly', () => {
   const wrapper: ShallowWrapper = shallow(<FooterMain />)
   expect(wrapper).toMatchSnapshot()
   expect(tMock).toHaveBeenCalledTimes(1)
-  expect(tMock).toHaveBeenCalledWith('business-card-contact-title')
+  expect(tMock).toHaveBeenCalledWith('cook-with-love-contact-title')
 })

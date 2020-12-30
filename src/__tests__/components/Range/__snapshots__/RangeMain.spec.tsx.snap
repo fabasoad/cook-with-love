@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render RangeMain correctly 1`] = `
+<div
+  id="range"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="section-title text-center center"
+    >
+      <h2>
+        cook-with-love-range-title
+      </h2>
+      <hr />
+    </div>
+    <div
+      className="row"
+    >
+      <RangeItem
+        img="test-file-stub"
+        name="Biscuit cake with cream cheese and berries"
+        title="cook-with-love-range-biscuit-cake-cream-cheese-berries-1-title"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Biscuit cake with cream cheese and berries"
+        title="cook-with-love-range-biscuit-cake-cream-cheese-berries-2-title"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Black currant macarons"
+        title="cook-with-love-range-macarons-black-currant-1-title"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Black currant macarons"
+        title="cook-with-love-range-macarons-black-currant-2-title"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Lemon macarons"
+        title="cook-with-love-range-macarons-lemon-1-title"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Lemon macarons"
+        title="cook-with-love-range-macarons-lemon-2-title"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Marshmallow"
+        title="cook-with-love-range-marshmallow-1-title"
+      />
+      <RangeItem
+        img="test-file-stub"
+        name="Meringue"
+        title="cook-with-love-range-meringue-1-title"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -6,10 +6,8 @@ export default function Header() {
   return (
     <header className="header" id="header">
       <div className="header__text">
-        <h1><Trans t={t}>business-card-header-title</Trans></h1>
-        <h5 className="header__text-subtitle">{t('business-card-header-occupation')}</h5>
-        <a className="btn btn-primary btn-lg" href="#about">{t('business-card-header-about-me')}</a>
-        <a className="btn btn-primary btn-lg" href="#portfolio">{t('business-card-header-portfolio')}</a>
+        <h1><Trans t={t}>cook-with-love-header-title</Trans></h1>
+        <h5 className="header__text-subtitle">{t('cook-with-love-header-subtitle')}</h5>
       </div>
     </header>
   )

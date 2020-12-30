@@ -4,7 +4,7 @@ export default function FooterEmail() {
   return (
     <div className="col">
       <i className="fa fa-envelope fa-2x"></i>
-      <p>fabasoad@gmail.com</p>
+      <p>vanillacaramel88@gmail.com</p>
     </div>
   )
 }

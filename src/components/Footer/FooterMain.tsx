@@ -2,7 +2,6 @@ import * as React from 'react'
 import { useTranslation } from 'react-i18next'
 
 import FooterContacts from './FooterContacts'
-import FooterExtra from './FooterExtra'
 import FooterInfo from './FooterInfo'
 import FooterSocial from './FooterSocial'
 
@@ -18,7 +17,6 @@ export default function FooterMain() {
         <FooterContacts />
         <FooterSocial />
         <FooterInfo />
-        <FooterExtra />
       </div>
     </div>
   )

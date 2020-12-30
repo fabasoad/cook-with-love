@@ -1,8 +1,8 @@
 {
-  "name": "business-card",
-  "version": "2.1.6",
-  "description": "Yevhen Fabizhevskyi's personal website.",
-  "homepage": "https://fabasoad.github.io/business-card/",
+  "name": "cook-with-love",
+  "version": "0.0.1",
+  "description": "Natalia Fabizhevska's website.",
+  "homepage": "https://fabasoad.github.io/cook-with-love/",
   "scripts": {
     "build:dev": "webpack --config webpack.dev.js",
     "build:prod": "webpack --config webpack.prod.js",
@@ -15,25 +15,18 @@
     "prepublish": "npm run snyk-protect"
   },
   "bugs": {
-    "url": "https://github.com/fabasoad/business-card/issues",
+    "url": "https://github.com/fabasoad/cook-with-love/issues",
     "email": "fabasoad@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fabasoad/business-card.git"
+    "url": "https://github.com/fabasoad/cook-with-love.git"
   },
   "author": {
     "name": "Yevhen Fabizhevskyi",
     "email": "fabasoad@gmail.com",
     "url": "https://github.com/fabasoad"
   },
-  "contributors": [
-    {
-      "name": "Natalia Fabizhevska",
-      "email": "vanillacaramel88@gmail.com",
-      "url": "https://github.com/animewka"
-    }
-  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "7.12.10",

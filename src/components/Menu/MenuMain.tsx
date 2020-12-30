@@ -42,10 +42,7 @@ export default function MenuMain() {
           <Nav activeKey={activeNavLink} className="mr-auto">
             <MenuItem setActiveNavLink={setActiveNavLink} name={'about'} />
             <MenuItem setActiveNavLink={setActiveNavLink} name={'skills'} />
-            <MenuItem setActiveNavLink={setActiveNavLink} name={'experience'} />
-            <MenuItem setActiveNavLink={setActiveNavLink} name={'education'} />
             <MenuItem setActiveNavLink={setActiveNavLink} name={'portfolio'} />
-            <MenuItem setActiveNavLink={setActiveNavLink} name={'resume'} />
             <MenuItem setActiveNavLink={setActiveNavLink} name={'contact'} />
           </Nav>
           <Nav>

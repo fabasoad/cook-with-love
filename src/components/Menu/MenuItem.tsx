@@ -15,7 +15,7 @@ export default function MenuItem(props: MenuItemProps) {
       eventKey={`#${props.name}`}
       href={`#${props.name}`}
     >
-      {t(`business-card-menu-${props.name}`)}
+      {t(`cook-with-love-menu-${props.name}`)}
     </Nav.Link>
   )
 }

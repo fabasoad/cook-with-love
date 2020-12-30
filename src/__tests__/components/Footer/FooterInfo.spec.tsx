@@ -16,7 +16,7 @@ test('should render FooterInfo correctly', () => {
   expect(wrapper).toMatchSnapshot()
   expect(tMock).toHaveBeenCalledTimes(1)
   expect(tMock).toHaveBeenCalledWith(
-    'business-card-version',
+    'cook-with-love-version',
     { version }
   )
 })

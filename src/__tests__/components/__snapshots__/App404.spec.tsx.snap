@@ -5,14 +5,14 @@ exports[`redirecting should work correctly 1`] = `
   className="font-regular font-non-jp"
 >
   <p>
-    business-card-404-text-1
+    cook-with-love-404-text-1
   </p>
   <p>
     <span
       className="blinker-prefix"
     />
      
-    business-card-404-text-2
+    cook-with-love-404-text-2
     <span
       style={
         Object {
@@ -40,7 +40,7 @@ exports[`redirecting should work correctly 1`] = `
       }
     }
   >
-    business-card-404-text-3
+    cook-with-love-404-text-3
     <span>
       3
     </span>
@@ -58,14 +58,14 @@ exports[`should render App404 with gb locale correctly 1`] = `
   className="font-regular font-non-jp"
 >
   <p>
-    business-card-404-text-1
+    cook-with-love-404-text-1
   </p>
   <p>
     <span
       className="blinker-prefix"
     />
      
-    business-card-404-text-2
+    cook-with-love-404-text-2
     <span
       style={
         Object {
@@ -93,7 +93,7 @@ exports[`should render App404 with gb locale correctly 1`] = `
       }
     }
   >
-    business-card-404-text-3
+    cook-with-love-404-text-3
     <span>
       3
     </span>
@@ -111,14 +111,14 @@ exports[`should render App404 with jp locale correctly 1`] = `
   className="font-regular font-jp"
 >
   <p>
-    business-card-404-text-1
+    cook-with-love-404-text-1
   </p>
   <p>
     <span
       className="blinker-prefix"
     />
      
-    business-card-404-text-2
+    cook-with-love-404-text-2
     <span
       style={
         Object {
@@ -146,7 +146,7 @@ exports[`should render App404 with jp locale correctly 1`] = `
       }
     }
   >
-    business-card-404-text-3
+    cook-with-love-404-text-3
     <span>
       3
     </span>

@@ -9,7 +9,7 @@ exports[`should render LanguageItem correctly 1`] = `
     className="section-title text-center center"
   >
     <h2>
-      business-card-languages-title
+      cook-with-love-languages-title
     </h2>
     <hr />
   </div>
@@ -27,18 +27,17 @@ exports[`should render LanguageItem correctly 1`] = `
           text="JLPT N5"
           url="https://drive.google.com/file/d/1wDeulFdf9-8DBa_k0F8tiRUtdlG7mh3L/view?usp=sharing"
         />
-        <LaguageLinkItem
+        <LanguageTextItem
           code="gb"
-          text="TOEIC 825"
-          url="https://drive.google.com/file/d/1nzM9WQqR7PQpHKDiWvkRYtcNbnRW8-OB/view?usp=sharing"
+          text="Basic"
         />
         <LanguageTextItem
           code="ru"
-          text="business-card-languages-native"
+          text="cook-with-love-languages-native"
         />
         <LanguageTextItem
           code="ua"
-          text="business-card-languages-native"
+          text="cook-with-love-languages-native"
         />
       </div>
     </div>

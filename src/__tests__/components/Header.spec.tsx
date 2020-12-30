@@ -15,11 +15,11 @@ test('should render Header correctly', () => {
   expect(wrapper).toMatchSnapshot()
   expect(tMock).toHaveBeenCalledTimes(3)
   new Array<string>(
-    'business-card-header-occupation',
-    'business-card-header-about-me',
-    'business-card-header-portfolio'
+    'cook-with-love-header-occupation',
+    'cook-with-love-header-about-me',
+    'cook-with-love-header-portfolio'
   ).forEach((n, i) => expect(tMock).toHaveBeenNthCalledWith(i + 1, n))
   expect(
     wrapper.find('Trans').childAt(0).text()
-  ).toBe('business-card-header-title')
+  ).toBe('cook-with-love-header-title')
 })

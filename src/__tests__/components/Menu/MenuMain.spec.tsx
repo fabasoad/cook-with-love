@@ -14,5 +14,5 @@ test('should render MenuMain correctly', () => {
   const wrapper: ShallowWrapper = shallow(<MenuMain />)
   expect(wrapper).toMatchSnapshot()
   expect(tMock).toHaveBeenCalledTimes(1)
-  expect(tMock).toHaveBeenCalledWith('business-card-author-name')
+  expect(tMock).toHaveBeenCalledWith('cook-with-love-author-name')
 })

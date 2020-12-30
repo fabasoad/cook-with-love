@@ -11,7 +11,7 @@ exports[`should render AboutMain correctly 1`] = `
       className="section-title text-center center"
     >
       <h2>
-        business-card-about-me-title
+        cook-with-love-about-me-title
       </h2>
       <hr />
     </div>
@@ -42,22 +42,22 @@ exports[`should render AboutMain correctly 1`] = `
             className="list-unstyled mt-3"
           >
             <li>
-              business-card-about-me-general-list-item-1
+              cook-with-love-about-me-general-list-item-1
             </li>
             <li>
-              business-card-about-me-general-list-item-2
+              cook-with-love-about-me-general-list-item-2
             </li>
             <li>
-              business-card-about-me-general-list-item-3
+              cook-with-love-about-me-general-list-item-3
             </li>
             <li>
-              business-card-about-me-general-list-item-4
+              cook-with-love-about-me-general-list-item-4
             </li>
             <li>
-              business-card-about-me-general-list-item-5
+              cook-with-love-about-me-general-list-item-5
             </li>
             <li>
-              business-card-about-me-general-list-item-6
+              cook-with-love-about-me-general-list-item-6
             </li>
           </ul>
         </div>

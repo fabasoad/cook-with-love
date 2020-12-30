@@ -40,14 +40,14 @@ export function App404(props: Props) {
 
   return (
     <div className={`font-regular font-${props.locale.code === 'jp' ? '' : 'non-'}jp`}>
-      <p>{t('business-card-404-text-1')}</p>
+      <p>{t('cook-with-love-404-text-1')}</p>
       <p>
         <span className="blinker-prefix"></span>
         {/* JP: 画面をクリックして続ける */}
-        &nbsp;{t('business-card-404-text-2')}<span style={isRedirectingStyle(true)}>.</span>
+        &nbsp;{t('cook-with-love-404-text-2')}<span style={isRedirectingStyle(true)}>.</span>
         <span style={isRedirectingStyle(false)} className="blinker">_</span>
       </p>
-      <p style={isRedirectingStyle(true)}>{t('business-card-404-text-3')}<span>{counter}</span><span className="blinker">_</span></p>
+      <p style={isRedirectingStyle(true)}>{t('cook-with-love-404-text-3')}<span>{counter}</span><span className="blinker">_</span></p>
     </div>
   )
 }

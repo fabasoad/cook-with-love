@@ -4,13 +4,11 @@ import { ThunkDispatch } from 'redux-thunk'
 
 import AboutMain from './About/AboutMain'
 import BackToTopButton from './BackToTopButton'
-import CertificatesMain from './Certificates/CertificatesMain'
 import FooterMain from './Footer/FooterMain'
 import Header from './Header'
 import LanguagesMain from './Languages/LanguagesMain'
 import MenuMain from './Menu/MenuMain'
 import PortfolioMain from './Portfolio/PortfolioMain'
-import Skills from './Skills'
 import { Locale, AppActions } from '../store/locale/types'
 import { AppState } from '../store/configureStore'
 
@@ -26,8 +24,6 @@ export function App(props: Props) {
       <Header />
       <MenuMain />
       <AboutMain />
-      <Skills />
-      <CertificatesMain />
       <LanguagesMain />
       <PortfolioMain />
       <FooterMain />

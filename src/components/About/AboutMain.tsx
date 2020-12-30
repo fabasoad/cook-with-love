@@ -27,7 +27,7 @@ export function AboutMain(props: Props) {
     <div id="about">
       <div className="container">
         <div className="section-title text-center center">
-          <h2>{i18n.t('business-card-about-me-title')}</h2>
+          <h2>{i18n.t('cook-with-love-about-me-title')}</h2>
           <hr />
         </div>
         <div className="row d-flex justify-content-center">
@@ -48,15 +48,15 @@ export function AboutMain(props: Props) {
               <ul className="list-unstyled mt-3">
                 <li>
                   {i18n.t(
-                    'business-card-about-me-general-list-item-1',
+                    'cook-with-love-about-me-general-list-item-1',
                     generalListItem1Keys
                   )}
                 </li>
-                <li>{i18n.t('business-card-about-me-general-list-item-2')}</li>
-                <li>{i18n.t('business-card-about-me-general-list-item-3')}</li>
-                <li>{i18n.t('business-card-about-me-general-list-item-4')}</li>
-                <li>{i18n.t('business-card-about-me-general-list-item-5')}</li>
-                <li>{i18n.t('business-card-about-me-general-list-item-6')}</li>
+                <li>{i18n.t('cook-with-love-about-me-general-list-item-2')}</li>
+                <li>{i18n.t('cook-with-love-about-me-general-list-item-3')}</li>
+                <li>{i18n.t('cook-with-love-about-me-general-list-item-4')}</li>
+                <li>{i18n.t('cook-with-love-about-me-general-list-item-5')}</li>
+                <li>{i18n.t('cook-with-love-about-me-general-list-item-6')}</li>
               </ul>
             </div>
           </div>

@@ -12,7 +12,7 @@ exports[`should render FooterMain correctly 1`] = `
       className="section-title center"
     >
       <h2>
-        business-card-contact-title
+        cook-with-love-contact-title
       </h2>
       <hr />
     </div>

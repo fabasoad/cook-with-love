@@ -27,10 +27,10 @@ test('should render AboutMain correctly', () => {
 
   expect(i18next.t).toBeCalledTimes(7)
   expect(i18next.t).toHaveBeenCalledWith(
-    expect.stringMatching(/^business-card-about-me-title$/)
+    expect.stringMatching(/^cook-with-love-about-me-title$/)
   )
   expect(i18next.t).toHaveBeenCalledWith(
-    expect.stringMatching(/^business-card-about-me-general-list-item-1$/),
+    expect.stringMatching(/^cook-with-love-about-me-general-list-item-1$/),
     expect.objectContaining({
       totalExperience: totalHumanize(locale.code),
       agileExperience: agileHumanize(locale.code)
@@ -39,7 +39,7 @@ test('should render AboutMain correctly', () => {
   for (let i = 2; i <= 6; i++) {
     expect(i18next.t).toHaveBeenCalledWith(
       expect.stringMatching(
-        new RegExp(`^business-card-about-me-general-list-item-${i}$`)
+        new RegExp(`^cook-with-love-about-me-general-list-item-${i}$`)
       )
     )
   }

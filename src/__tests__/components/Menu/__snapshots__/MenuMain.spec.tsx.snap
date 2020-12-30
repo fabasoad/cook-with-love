@@ -16,7 +16,7 @@ exports[`should render MenuMain correctly 1`] = `
     <NavbarBrand
       href="#header"
     >
-      business-card-author-name
+      cook-with-love-author-name
     </NavbarBrand>
     <NavbarToggle
       aria-controls="basic-navbar-nav"
@@ -34,10 +34,6 @@ exports[`should render MenuMain correctly 1`] = `
       >
         <MenuItem
           name="about"
-          setActiveNavLink={[Function]}
-        />
-        <MenuItem
-          name="skills"
           setActiveNavLink={[Function]}
         />
         <MenuItem

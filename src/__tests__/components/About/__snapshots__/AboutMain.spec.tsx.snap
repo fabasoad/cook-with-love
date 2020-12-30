@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AboutMain correctly 1`] = `
+<div
+  id="about"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="section-title text-center center"
+    >
+      <h2>
+        business-card-about-me-title
+      </h2>
+      <hr />
+    </div>
+    <div
+      className="row d-flex justify-content-center"
+    >
+      <div
+        className="about-photo col-md-12 d-flex justify-content-center"
+      >
+        <img
+          alt="About me"
+          className="about-photo--portrait img-thumbnail"
+          src="test-file-stub"
+        />
+        <img
+          alt="Oracle 1Z0-808"
+          className="about-photo--badge"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        className="col-md-8 col-md-offset-2 text-center"
+      >
+        <div
+          className="about-text"
+        >
+          <ul
+            className="list-unstyled mt-3"
+          >
+            <li>
+              business-card-about-me-general-list-item-1
+            </li>
+            <li>
+              business-card-about-me-general-list-item-2
+            </li>
+            <li>
+              business-card-about-me-general-list-item-3
+            </li>
+            <li>
+              business-card-about-me-general-list-item-4
+            </li>
+            <li>
+              business-card-about-me-general-list-item-5
+            </li>
+            <li>
+              business-card-about-me-general-list-item-6
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

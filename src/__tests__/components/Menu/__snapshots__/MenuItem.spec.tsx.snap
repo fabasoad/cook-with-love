@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render MenuItem correctly 1`] = `
+<NavLink
+  as={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  disabled={false}
+  eventKey="#test-menu-item"
+  href="#test-menu-item"
+  onClick={[Function]}
+>
+  business-card-menu-test-menu-item
+</NavLink>
+`;

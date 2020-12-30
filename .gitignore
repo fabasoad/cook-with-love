@@ -1,0 +1,10 @@
+.DS_Store
+.vscode/*
+coverage
+node_modules/
+public/*
+!public/404.html
+!public/favicon.png
+!public/index.html
+!public/meta.png
+!.vscode/settings.json

@@ -8,7 +8,6 @@ exports[`should render App with gb locale correctly 1`] = `
   <Header />
   <MenuMain />
   <RangeMain />
-  <LanguagesMain />
   <FooterMain />
 </div>
 `;
@@ -21,7 +20,6 @@ exports[`should render App with jp locale correctly 1`] = `
   <Header />
   <MenuMain />
   <RangeMain />
-  <LanguagesMain />
   <FooterMain />
 </div>
 `;

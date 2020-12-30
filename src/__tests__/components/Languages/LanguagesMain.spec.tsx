@@ -13,9 +13,10 @@ beforeAll(() => {
 test('should render LanguageItem correctly', () => {
   const wrapper: ShallowWrapper = shallow(<LanguagesMain />)
   expect(wrapper).toMatchSnapshot()
-  expect(tMock).toHaveBeenCalledTimes(3)
+  expect(tMock).toHaveBeenCalledTimes(4)
   expect(tMock).toHaveBeenNthCalledWith(1, 'cook-with-love-languages-title')
-  new Array<number>(2, 3).forEach(
+  expect(tMock).toHaveBeenNthCalledWith(2, 'cook-with-love-languages-basic')
+  new Array<number>(3, 4).forEach(
     (n) => expect(tMock).toHaveBeenNthCalledWith(
       n, 'cook-with-love-languages-native'
     )

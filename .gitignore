@@ -4,7 +4,7 @@ coverage
 node_modules/
 public/*
 !public/404.html
-!public/favicon.png
+!public/favicon.jpg
 !public/index.html
-!public/meta.png
+!public/meta.jpg
 !.vscode/settings.json

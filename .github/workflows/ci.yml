@@ -4,9 +4,9 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - 'main'
       - 'bugfix/**'
-      - 'bump/patch-**'
+      - 'bump/patch-*'
       - 'feature/**'
 
 env:

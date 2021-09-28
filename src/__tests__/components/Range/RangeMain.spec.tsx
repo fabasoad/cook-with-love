@@ -11,11 +11,12 @@ beforeAll(() => {
 })
 
 test('should render RangeMain correctly', () => {
+  const totalNumberOfProducts: number = 21;
   const wrapper: ShallowWrapper = shallow(<RangeMain />)
   expect(wrapper).toMatchSnapshot()
-  expect(tMock).toHaveBeenCalledTimes(9)
+  expect(tMock).toHaveBeenCalledTimes(totalNumberOfProducts)
   expect(tMock).toHaveBeenNthCalledWith(1, 'cook-with-love-range-title')
-  for (let i = 1; i < 9; i += 2) {
+  for (let i = 1; i < totalNumberOfProducts; i += 2) {
     expect(tMock).toHaveBeenNthCalledWith(
       i + 1, expect.stringMatching(/^cook-with-love-range-.*-title$/)
     )

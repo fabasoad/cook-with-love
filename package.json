@@ -1,6 +1,6 @@
 {
   "name": "cook-with-love",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "description": "Natalia Fabizhevska's website.",
   "homepage": "https://fabasoad.github.io/cook-with-love/",
   "scripts": {
@@ -64,7 +64,7 @@
     "jest": "26.6.3",
     "markdownlint-cli": "0.27.1",
     "moment": "2.29.1",
-    "node-sass": "5.0.0",
+    "node-sass": "6.0.1",
     "normalize.css": "8.0.1",
     "raf": "3.4.1",
     "react": "17.0.2",
@@ -74,23 +74,23 @@
     "react-i18next": "11.8.15",
     "react-iframe": "1.8.0",
     "react-modal": "3.13.1",
-    "react-redux": "7.2.4",
+    "react-redux": "7.2.5",
     "react-test-renderer": "17.0.2",
     "redux": "4.1.0",
     "redux-mock-store": "1.5.4",
     "redux-thunk": "2.3.0",
     "sass-loader": "11.0.1",
-    "snyk": "1.574.0",
+    "snyk": "1.723.0",
     "style-loader": "2.0.0",
     "ts-jest": "26.5.5",
-    "ts-loader": "9.1.1",
+    "ts-loader": "9.2.6",
     "ts-node": "9.1.1",
     "typescript": "4.2.4",
     "uuid": "8.3.2",
-    "webpack": "5.36.2",
-    "webpack-cli": "4.6.0",
-    "webpack-dev-server": "3.11.2",
-    "webpack-merge": "5.7.3"
+    "webpack": "5.54.0",
+    "webpack-cli": "4.8.0",
+    "webpack-dev-server": "4.3.0",
+    "webpack-merge": "5.8.0"
   },
   "snyk": true
 }

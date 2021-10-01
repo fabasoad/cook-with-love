@@ -73,7 +73,7 @@
     "react-flag-icon-css": "1.0.25",
     "react-i18next": "11.8.15",
     "react-iframe": "1.8.0",
-    "react-modal": "3.13.1",
+    "react-modal": "3.14.3",
     "react-redux": "7.2.5",
     "react-test-renderer": "17.0.2",
     "redux": "4.1.0",

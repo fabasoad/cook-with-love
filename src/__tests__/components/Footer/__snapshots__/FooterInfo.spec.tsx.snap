@@ -27,6 +27,7 @@ exports[`should render FooterInfo correctly 1`] = `
     </li>
     <li>
       <Badge
+        bg="primary"
         pill={true}
         variant="light"
       >

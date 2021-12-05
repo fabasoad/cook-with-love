@@ -39,7 +39,7 @@ export default function MenuMain() {
       <Navbar expanded={expanded} onToggle={setExpanded} collapseOnSelect={true} expand="md" className="navbar-custom">
         <Navbar.Brand href="#header">{t('cook-with-love-author-name')}</Navbar.Brand>
         <Navbar.Toggle className="navbar-dark" aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse role={undefined} id="basic-navbar-nav">
           <Nav activeKey={activeNavLink} className="mr-auto">
             <MenuItem setActiveNavLink={setActiveNavLink} name={'range'} />
             <MenuItem setActiveNavLink={setActiveNavLink} name={'contact'} />

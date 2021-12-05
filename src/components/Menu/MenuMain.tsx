@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import LocaleDropDown from './LocaleDropDown'
 import MenuItem from './MenuItem'
+import SupportedLocales from '../../scripts/SupportedLocales';
 
 export default function MenuMain() {
   const { t } = useTranslation()
@@ -38,13 +39,13 @@ export default function MenuMain() {
       <Navbar expanded={expanded} onToggle={setExpanded} collapseOnSelect={true} expand="md" className="navbar-custom">
         <Navbar.Brand href="#header">{t('cook-with-love-author-name')}</Navbar.Brand>
         <Navbar.Toggle className="navbar-dark" aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse role={undefined} id="basic-navbar-nav">
           <Nav activeKey={activeNavLink} className="mr-auto">
             <MenuItem setActiveNavLink={setActiveNavLink} name={'range'} />
             <MenuItem setActiveNavLink={setActiveNavLink} name={'contact'} />
           </Nav>
           <Nav>
-            <LocaleDropDown />
+            <LocaleDropDown getLocalesExceptOf={SupportedLocales.getExceptOf} />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

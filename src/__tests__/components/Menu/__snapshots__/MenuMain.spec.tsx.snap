@@ -45,7 +45,9 @@ exports[`should render MenuMain correctly 1`] = `
         fill={false}
         justify={false}
       >
-        <Connect(LocaleDropDown) />
+        <Connect(LocaleDropDown)
+          getLocalesExceptOf={[Function]}
+        />
       </Nav>
     </NavbarCollapse>
   </Navbar>

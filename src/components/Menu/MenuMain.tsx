@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import LocaleDropDown from './LocaleDropDown'
 import MenuItem from './MenuItem'
+import SupportedLocales from '../../scripts/SupportedLocales';
 
 export default function MenuMain() {
   const { t } = useTranslation()
@@ -44,7 +45,7 @@ export default function MenuMain() {
             <MenuItem setActiveNavLink={setActiveNavLink} name={'contact'} />
           </Nav>
           <Nav>
-            <LocaleDropDown />
+            <LocaleDropDown getLocalesExceptOf={SupportedLocales.getExceptOf} />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -55,7 +55,7 @@
     "enzyme-to-json": "3.6.2",
     "eslint": "7.25.0",
     "eslint-config-google": "0.14.0",
-    "eslint-plugin-react": "7.26.1",
+    "eslint-plugin-react": "7.28.0",
     "file-loader": "6.2.0",
     "git-branch-is": "4.0.0",
     "husky": "6.0.0",

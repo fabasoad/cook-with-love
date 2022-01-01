@@ -81,7 +81,7 @@
     "redux-thunk": "2.3.0",
     "sass-loader": "11.0.1",
     "snyk": "1.723.0",
-    "style-loader": "2.0.0",
+    "style-loader": "3.3.1",
     "ts-jest": "26.5.5",
     "ts-loader": "9.2.6",
     "ts-node": "9.1.1",

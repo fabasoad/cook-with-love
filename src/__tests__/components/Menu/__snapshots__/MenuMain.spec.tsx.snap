@@ -25,6 +25,7 @@ exports[`should render MenuMain correctly 1`] = `
     />
     <NavbarCollapse
       id="basic-navbar-nav"
+      role="button"
     >
       <Nav
         activeKey=""

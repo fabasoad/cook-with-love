@@ -10,7 +10,7 @@ export default function FooterInfo() {
       <ul className="icon-list">
         <li><img src="https://img.shields.io/static/v1?label=made%20by&amp;message=fabasoad&amp;color=c56ddb&amp;style=for-the-badge&amp;logo=github" alt="Made by fabasoad" /></li>
         <li><a target="_blank" rel="noopener noreferrer" href="https://en.cryptobadges.io/donate/145HwyQAcv4vrzUumJhu7nWGAVBysX9jJH"><img src="https://en.cryptobadges.io/badge/micro/145HwyQAcv4vrzUumJhu7nWGAVBysX9jJH" alt="Donate with Bitcoin" /></a></li>
-        <li><Badge pill={true} variant="light">{t('cook-with-love-version', { version })}</Badge></li>
+        <li><Badge pill={true} bg="secondary">{t<string>('cook-with-love-version', { version })}</Badge></li>
       </ul>
     </div>
   )

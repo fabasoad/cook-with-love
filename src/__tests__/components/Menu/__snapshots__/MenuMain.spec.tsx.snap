@@ -14,6 +14,7 @@ exports[`should render MenuMain correctly 1`] = `
     variant="light"
   >
     <NavbarBrand
+      className="ms-2"
       href="#header"
     >
       cook-with-love-author-name
@@ -25,11 +26,9 @@ exports[`should render MenuMain correctly 1`] = `
     />
     <NavbarCollapse
       id="basic-navbar-nav"
-      role="button"
     >
       <Nav
         activeKey=""
-        className="mr-auto"
         fill={false}
         justify={false}
       >
@@ -43,6 +42,7 @@ exports[`should render MenuMain correctly 1`] = `
         />
       </Nav>
       <Nav
+        className="me-2"
         fill={false}
         justify={false}
       >

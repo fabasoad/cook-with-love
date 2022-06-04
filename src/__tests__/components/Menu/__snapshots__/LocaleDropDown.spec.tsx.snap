@@ -23,7 +23,7 @@ exports[`should render LocaleDropDown correctly 1`] = `
       bsPrefix="nav-link"
       eventKey="gb"
       key="gb"
-      onSelect={[Function]}
+      onClick={[Function]}
     >
       <FlagIcon
         code="gb"

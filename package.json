@@ -10,11 +10,9 @@
     "lint:es": "eslint --ext ts --ext tsx src",
     "lint": "yarn run lint:md && yarn run lint:es",
     "postinstall": "yarn husky install",
-    "prepare": "npm run snyk-protect",
     "test": "NODE_OPTIONS=--no-experimental-fetch jest --config=jest.config.json --coverage",
     "security:auth": "snyk auth",
     "security:test": "snyk test",
-    "snyk-protect": "snyk protect",
     "start:dev": "webpack serve --config webpack.dev.js"
   },
   "bugs": {

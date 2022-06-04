@@ -30,7 +30,7 @@ export function LocaleDropDown(props: Props) {
       <Dropdown.Menu>
         {props.getLocalesExceptOf(props.locale.code).map((l) => {
           return (
-            <Dropdown.Item onSelect={() => handleClick(l)} bsPrefix="nav-link" eventKey={l.code} key={l.code}>
+            <Dropdown.Item onClick={() => handleClick(l)} bsPrefix="nav-link" eventKey={l.code} key={l.code}>
               <FlagIcon code={l.code} />
               {l.title}
             </Dropdown.Item>

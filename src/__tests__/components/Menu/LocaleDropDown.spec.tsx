@@ -1,6 +1,6 @@
 /// <reference types="jest" />
-import * as React from 'react'
 import { shallow, ShallowWrapper } from 'enzyme'
+import * as React from 'react'
 import { LocaleDropDown } from '../../../components/Menu/LocaleDropDown'
 import { Locale } from '../../../store/locale/types'
 
@@ -24,7 +24,7 @@ test('should change locale correctly', () => {
     locale={{ code: 'ru', title: 'RU' }}
     startSetLocale={startSetLocaleSpy}
   />)
-  wrapper.find('DropdownItem').simulate('select')
+  wrapper.find('DropdownItem').simulate('click')
   expect(startSetLocaleSpy).toHaveBeenCalledTimes(1)
   expect(startSetLocaleSpy).toHaveBeenCalledWith(expectedLocale)
 })

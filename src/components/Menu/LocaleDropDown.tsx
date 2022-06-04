@@ -4,14 +4,14 @@ import FlagIconFactory from 'react-flag-icon-css'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { ThunkDispatch } from 'redux-thunk'
-
 import SupportedLocales from '../../scripts/SupportedLocales'
-import { Locale, AppActions } from '../../store/locale/types'
 import { AppState } from '../../store/configureStore'
 import { startSetLocale } from '../../store/locale/actions'
+import { AppActions, Locale } from '../../store/locale/types'
+
 
 interface LocaleDropDownProps {
-  getLocalesExceptOf: (code: string) => Locale[]
+  getLocalesExceptOf?: (code: string) => Locale[]
 }
 
 type Props = LocaleDropDownProps & LinkDispatchProps & LinkStateProps
@@ -30,7 +30,7 @@ export function LocaleDropDown(props: Props) {
       <Dropdown.Menu>
         {props.getLocalesExceptOf(props.locale.code).map((l) => {
           return (
-            <Dropdown.Item onSelect={() => handleClick(l)} bsPrefix="nav-link" eventKey={l.code} key={l.code}>
+            <Dropdown.Item onClick={() => handleClick(l)} bsPrefix="nav-link" eventKey={l.code} key={l.code}>
               <FlagIcon code={l.code} />
               {l.title}
             </Dropdown.Item>

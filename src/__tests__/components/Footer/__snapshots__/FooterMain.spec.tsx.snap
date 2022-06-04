@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render FooterMain correctly 1`] = `
+exports[`FooterMain should render FooterMain correctly 1`] = `
 <div
   className="footer dark-component"
 >

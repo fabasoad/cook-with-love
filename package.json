@@ -11,7 +11,7 @@
     "lint": "yarn run lint:md && yarn run lint:es",
     "postinstall": "yarn husky install",
     "prepare": "npm run snyk-protect",
-    "test": "jest --config=jest.config.json --coverage",
+    "test": "NODE_OPTIONS=--no-experimental-fetch jest --config=jest.config.json --coverage",
     "security:auth": "snyk auth",
     "security:test": "snyk test",
     "snyk-protect": "snyk protect",

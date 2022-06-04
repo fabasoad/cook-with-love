@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render FooterEmail correctly 1`] = `
+exports[`FooterEmail should render FooterEmail correctly 1`] = `
 <div
   className="col"
 >

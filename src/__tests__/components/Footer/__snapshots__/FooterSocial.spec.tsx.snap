@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render FooterSocial correctly 1`] = `
+exports[`FooterSocial should render FooterSocial correctly 1`] = `
 <div
   className="social d-flex justify-content-center"
 >

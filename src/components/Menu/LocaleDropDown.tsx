@@ -9,7 +9,6 @@ import { AppState } from '../../store/configureStore'
 import { startSetLocale } from '../../store/locale/actions'
 import { AppActions, Locale } from '../../store/locale/types'
 
-
 interface LocaleDropDownProps {
   getLocalesExceptOf?: (code: string) => Locale[]
 }

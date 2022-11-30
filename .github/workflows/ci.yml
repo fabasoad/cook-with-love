@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          ref: ${{ github.ref }}
       - name: Cache node_modules
         id: yarn-cache
         uses: actions/cache@v3
@@ -25,7 +23,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Compile
         if: ${{ steps.yarn-cache.outputs.cache-hit != 'true' }}
-        run: yarn install
+        run: yarn install --ignore-scripts
       - name: Lint
         run: yarn run lint
       - name: Unit tests

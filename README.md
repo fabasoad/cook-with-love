@@ -1,7 +1,6 @@
 # Cook with ❤️
 
 ![CI](https://github.com/fabasoad/cook-with-love/workflows/CI/badge.svg)
-![YAML Lint](https://github.com/fabasoad/cook-with-love/workflows/YAML%20Lint/badge.svg)
 ![Security Tests](https://github.com/fabasoad/cook-with-love/workflows/Security%20Tests/badge.svg)
 [![Maintainability](https://api.codeclimate.com/v1/badges/ab0b882f6f583cbf16c7/maintainability)](https://codeclimate.com/github/fabasoad/cook-with-love/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ab0b882f6f583cbf16c7/test_coverage)](https://codeclimate.com/github/fabasoad/cook-with-love/test_coverage)

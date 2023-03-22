@@ -6,5 +6,15 @@
 .idea
 .vscode
 coverage
-node_modules/
 public/*
+
+# yarn
+node_modules
+yarn-error.log
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

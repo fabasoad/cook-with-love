@@ -1,5 +1,5 @@
 ---
-name: CI
+name: Unit tests
 
 on:  # yamllint disable-line rule:truthy
   push:
@@ -12,8 +12,8 @@ defaults:
     shell: sh
 
 jobs:
-  build:
-    name: Build
+  unit-tests:
+    name: Unit tests
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -30,8 +30,6 @@ jobs:
       - name: Compile
         if: ${{ steps.yarn-cache.outputs.cache-hit != 'true' }}
         run: yarn install
-      - name: Lint
-        run: yarn run lint
       - name: Unit tests
         if: ${{ github.event_name == 'pull_request' }}
         run: yarn test

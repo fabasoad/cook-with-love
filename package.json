@@ -1,6 +1,6 @@
 {
   "name": "cook-with-love",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "Natalia Fabizhevska's website.",
   "homepage": "https://fabasoad.github.io/cook-with-love/",
   "scripts": {
@@ -79,5 +79,5 @@
     "webpack-dev-server": "4.13.3",
     "webpack-merge": "5.8.0"
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@3.5.1"
 }

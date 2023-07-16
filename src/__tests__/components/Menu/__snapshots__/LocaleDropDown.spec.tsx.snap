@@ -1,12 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`should render LocaleDropDown correctly 1`] = `
-<Dropdown
-  align="start"
-  autoClose={true}
-  drop="down"
-  navbar={false}
->
+<Dropdown>
   <DropdownToggle
     bsPrefix="nav-link dropdown-toggle"
     id="btnLocale"
@@ -17,9 +12,7 @@ exports[`should render LocaleDropDown correctly 1`] = `
     />
     RU
   </DropdownToggle>
-  <DropdownMenu
-    flip={true}
-  >
+  <DropdownMenu>
     <DropdownItem
       bsPrefix="nav-link"
       eventKey="gb"

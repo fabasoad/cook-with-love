@@ -4,49 +4,53 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Cakes',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Welcome to a world of sweetness and indulgence at our online cake shop.
+        Explore our divine assortment of cakes, lovingly crafted to satisfy your
+        sweet cravings. From luscious chocolate decadence to fruity delights, our
+        cakes are designed to add a touch of magic to your celebrations or simply
+        brighten your day. Order now and let the flavors of our exquisite cakes
+        transport you to a world of irresistible treats.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Macarons',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Discover the epitome of elegance and flavor with our exquisite macarons.
+        Delicately crafted, each bite of our macarons is a burst of perfection,
+        a symphony of taste. Indulge in a world of vibrant colors and delightful
+        fillings, making every moment a sweet celebration. Shop now and experience
+        the art of macaron magic with us.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Marshmallows',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Treat yourself to the fluffy, melt-in-your-mouth goodness of our gourmet
+        marshmallows. Handcrafted with care, our marshmallows are the epitome of
+        sweet, pillowy delight. From classic vanilla to innovative flavor combinations,
+        they're perfect for toasting, s'mores, or simply enjoying as a sweet,
+        cozy treat. Shop now and experience the joy of marshmallow indulgence
+        like never before.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>

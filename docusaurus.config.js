@@ -3,18 +3,19 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { version } = require('./package.json');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Cook with love',
-  tagline: 'The best cakes are here',
+  tagline: 'Cooking with love is the key to creating delicious meals',
   favicon: 'img/cook-with-love-logo.png',
 
   // Set the production url of your site here
   url: 'https://fabasoad.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/cook-with-love/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,10 +40,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -57,8 +54,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       navbar: {
         title: 'Cook with love',
         logo: {
@@ -70,12 +66,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Line up',
+            label: 'Menu',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/fabasoad/cook-with-love/issues/new/choose',
-            label: 'Report a bug',
+            href: `https://github.com/fabasoad/cook-with-love/releases/tag/v${version}`,
+            label: `v${version}`,
             position: 'right',
           },
         ],
@@ -84,7 +79,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Line up',
+            title: 'Menu',
             items: [
               {
                 label: 'Cakes',
@@ -106,6 +101,10 @@ const config = {
               {
                 label: 'Email',
                 href: 'mailto:vanillacaramel88@gmail.com',
+              },
+              {
+                label: 'Tokyo, Japan',
+                href: 'https://maps.app.goo.gl/G142uf1ZqbE3BtEz7',
               },
             ],
           },

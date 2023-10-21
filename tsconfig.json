@@ -1,11 +1,6 @@
 {
+  "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
-    "target": "es6",
-    "jsx": "react",
-    "module": "commonjs",
-    "resolveJsonModule": true
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "baseUrl": "."
+  }
 }

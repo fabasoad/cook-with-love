@@ -1,28 +1,14 @@
 ---
 default_install_hook_types: ["pre-commit", "pre-push"]
 default_stages: ["commit", "push"]
-exclude: ^(dist/.*\.js|\.yarn/.*)$
+exclude: ^(\.docusaurus/.*|pnpm-lock\.yaml|build/.*)$
 minimum_pre_commit_version: 2.18.0
 repos:
   - repo: local
     hooks:
       - id: build
         name: Build
-        entry: yarn run build:prod
-        language: system
-        pass_filenames: false
-        verbose: true
-        stages: ["push"]
-      - id: eslint
-        name: Lint
-        entry: yarn run lint
-        language: system
-        pass_filenames: false
-        verbose: true
-        stages: ["push"]
-      - id: test
-        name: Unit tests
-        entry: yarn test
+        entry: pnpm run build
         language: system
         pass_filenames: false
         verbose: true
@@ -36,11 +22,6 @@ repos:
     rev: v8.18.0
     hooks:
       - id: gitleaks
-  - repo: https://github.com/fabasoad/pre-commit-snyk
-    rev: v0.4.0
-    hooks:
-      - id: snyk-test
-        stages: ["push"]
   # Markdown
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.37.0

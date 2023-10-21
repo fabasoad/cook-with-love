@@ -2810,14 +2810,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.69":
-  version: 17.0.69
-  resolution: "@types/react@npm:17.0.69"
+"@types/react@npm:17.0.68":
+  version: 17.0.68
+  resolution: "@types/react@npm:17.0.68"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: b83d4ec968b712b2b1a444c614b1ef3e59879c6911bc4001158de5de49b80b6a20fc4859353244f0171b94845d4c85a6379071445242ff23bbbc9b0ff24577d7
+  checksum: c6ca4415b53b1abe91162b29af541a1797a56a6f462ef796e8ebda3eaa4d0609205f4f17b3fce8d9a12235d4ffd8a67c47b5e018ed85c2f3bee0fba8f54638c1
   languageName: node
   linkType: hard
 
@@ -4574,7 +4574,7 @@ __metadata:
     "@babel/preset-typescript": 7.23.2
     "@types/enzyme": 3.10.15
     "@types/jest": 27.5.2
-    "@types/react": 17.0.69
+    "@types/react": 17.0.68
     "@types/react-dom": 17.0.22
     "@types/react-redux": 7.1.28
     "@typescript-eslint/eslint-plugin": 6.8.0

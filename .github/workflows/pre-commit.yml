@@ -26,7 +26,10 @@ jobs:
       - name: Update git config
         run: git config --global --add safe.directory "$(pwd)"
       - name: Compile
-        run: pnpm install
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          run_install: true
       - name: Run pre-commit on changed files
         if: ${{ github.event_name == 'pull_request' }}
         run: |

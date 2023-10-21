@@ -1,10 +1,41 @@
-# Cook with ❤️
+# Website
 
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
-![unit-tests](https://github.com/fabasoad/cook-with-love/actions/workflows/unit-tests.yml/badge.svg)
-![security](https://github.com/fabasoad/cook-with-love/actions/workflows/security.yml/badge.svg)
-![pre-commit](https://github.com/fabasoad/cook-with-love/actions/workflows/pre-commit.yml/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ab0b882f6f583cbf16c7/maintainability)](https://codeclimate.com/github/fabasoad/cook-with-love/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/ab0b882f6f583cbf16c7/test_coverage)](https://codeclimate.com/github/fabasoad/cook-with-love/test_coverage)
-[![Known Vulnerabilities](https://snyk.io/test/github/fabasoad/cook-with-love/badge.svg)](https://snyk.io/test/github/fabasoad/cook-with-love)
-![Website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Ffabasoad.github.io%2Fcook-with-love%2F)
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+
+### Installation
+
+```
+yarn
+```
+
+### Local Development
+
+```
+yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

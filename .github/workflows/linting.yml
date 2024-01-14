@@ -8,35 +8,6 @@ on: # yamllint disable-line rule:truthy
       - main
 
 jobs:
-  eslint:
-    name: ESLint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout ${{ github.repository }}
-        uses: actions/checkout@v4
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2.4.0
-        with:
-          run_install: "true"
-          standalone: "true"
-      - name: Run ESLint
-        uses: sibiraj-s/action-eslint@v3
-        with:
-          all-files: "true"
-          ignore-patterns: |
-            .github
-            coverage
-            dist
-            node_modules
-          eslint-args: "-o eslint-results.sarif -f ${{ github.workspace }}/node_modules/@microsoft/eslint-formatter-sarif/sarif.js"
-          extensions: "js,jsx,ts,tsx"
-          annotations: true
-      - name: Upload to GHAS
-        if: always()
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          category: "eslint"
-          sarif_file: "eslint-results.sarif"
   pre-commit:
     name: Pre-commit
     uses: fabasoad/reusable-workflows/.github/workflows/wf-pre-commit.yml@main

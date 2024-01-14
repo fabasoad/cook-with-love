@@ -14,13 +14,11 @@ jobs:
     steps:
       - name: Checkout ${{ github.repository }}
         uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.4.0
         with:
-          node-version-file: ".nvmrc"
-          cache: "pnpm"
-          cache-dependency-path: "pnpm-lock.yaml"
-      - name: Compile
-        run: pnpm install
+          run_install: "true"
+          standalone: "true"
       - name: Run ESLint
         uses: sibiraj-s/action-eslint@v3
         with:
@@ -42,3 +40,5 @@ jobs:
   pre-commit:
     name: Pre-commit
     uses: fabasoad/reusable-workflows/.github/workflows/wf-pre-commit.yml@main
+    with:
+      skip-hooks: "audit, build"

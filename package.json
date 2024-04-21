@@ -15,8 +15,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "3.2.0",
-    "@docusaurus/preset-classic": "3.2.0",
+    "@docusaurus/core": "3.2.1",
+    "@docusaurus/preset-classic": "3.2.1",
     "@mdx-js/react": "3.0.1",
     "clsx": "2.1.0",
     "prism-react-renderer": "2.3.1",
@@ -24,11 +24,11 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.2.0",
-    "@docusaurus/tsconfig": "3.2.0",
-    "@docusaurus/types": "3.2.0",
-    "@types/react": "18.2.73",
-    "typescript": "5.4.3"
+    "@docusaurus/module-type-aliases": "3.2.1",
+    "@docusaurus/tsconfig": "3.2.1",
+    "@docusaurus/types": "3.2.1",
+    "@types/react": "18.2.79",
+    "typescript": "5.4.5"
   },
   "browserslist": {
     "production": [
@@ -45,7 +45,7 @@
   "engines": {
     "node": ">=20.0"
   },
-  "packageManager": "pnpm@8.14.1",
+  "packageManager": "pnpm@9.0.4",
   "pnpm": {
     "overrides": {
       "webpack-dev-middleware@<=5.3.3": ">=5.3.4",

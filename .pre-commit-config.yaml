@@ -26,9 +26,17 @@ repos:
     hooks:
       - id: detect-secrets
   - repo: https://github.com/gitleaks/gitleaks
-    rev: v8.18.3
+    rev: v8.18.4
     hooks:
       - id: gitleaks
+  - repo: https://github.com/fabasoad/pre-commit-grype
+    rev: v0.6.0
+    hooks:
+      - id: grype-dir
+        args:
+          - --grype-args=--by-cve --fail-on=low --exclude=**/node_modules
+          - --hook-args=--log-level debug
+        stages: ["push"]
   # Markdown
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.41.0
@@ -47,11 +55,15 @@ repos:
     hooks:
       - id: actionlint
         args: ["-pyflakes="]
-        stages: ["push"]
+        stages: ["commit"]
   # Other
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
     hooks:
+      - id: check-executables-have-shebangs
+        stages: ["commit"]
+      - id: check-shebang-scripts-are-executable
+        stages: ["commit"]
       - id: check-merge-conflict
       - id: check-json
         stages: ["push"]

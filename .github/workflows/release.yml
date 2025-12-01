@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout ${{ github.repository }}
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Compile
         uses: pnpm/action-setup@v4
         with:
@@ -33,5 +33,7 @@ jobs:
     name: GitHub
     needs: [deploy]
     uses: fabasoad/reusable-workflows/.github/workflows/wf-github-release.yml@main
+    permissions:
+      contents: write
     with:
       bump-tags: false

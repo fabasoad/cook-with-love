@@ -1,6 +1,6 @@
 {
   "name": "cook-with-love",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -27,7 +27,7 @@
     "@docusaurus/module-type-aliases": "~3.9.2",
     "@docusaurus/tsconfig": "~3.9.2",
     "@docusaurus/types": "~3.9.2",
-    "@types/react": "~19.2.8",
+    "@types/react": "~19.2.9",
     "typescript": "~5.9.3"
   },
   "browserslist": {
@@ -45,5 +45,5 @@
   "engines": {
     "node": ">=20.0"
   },
-  "packageManager": "pnpm@10.23.0"
+  "packageManager": "pnpm@10.28.1"
 }

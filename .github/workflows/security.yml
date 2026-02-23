@@ -33,6 +33,8 @@ jobs:
     name: pnpm audit
     if: contains(fromJSON('["all", "pnpm-audit"]'), github.event.inputs.security-type || 'all')
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
       - name: Checkout ${{ github.repository }}
         uses: actions/checkout@v6

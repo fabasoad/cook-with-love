@@ -20,8 +20,8 @@
     "@mdx-js/react": "~3.1.1",
     "clsx": "~2.1.1",
     "prism-react-renderer": "~2.4.1",
-    "react": "~19.2.5",
-    "react-dom": "~19.2.5"
+    "react": "~19.2.6",
+    "react-dom": "~19.2.6"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "~3.10.1",
@@ -45,7 +45,7 @@
   "engines": {
     "node": ">=20.0"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@10.33.4",
   "pnpm": {
     "overrides": {
       "serialize-javascript@<7.0.5": ">=7.0.5",

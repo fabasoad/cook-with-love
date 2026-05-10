@@ -3,7 +3,7 @@
 .DEFAULT_GOAL := build
 
 audit:
-	@pnpm audit
+	@pnpm audit --fix update
 
 build:
 	@pnpm run build

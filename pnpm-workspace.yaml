@@ -6,4 +6,5 @@ minimumReleaseAgeExclude:
 overrides:
   serialize-javascript@<7.0.5: ^7.0.5
   serialize-javascript@<=7.0.2: ^7.0.3
-  uuid: ^14.0.0
+  sirv@<3.0.2: ^3.0.2
+  uuid@<14.0.0: ^14.0.0

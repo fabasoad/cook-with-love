@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcook_with_love=globalThis.webpackChunkcook_with_love||[]).push([[953],{1061(o){o.exports=JSON.parse('{"metadata":{"permalink":"/cook-with-love/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

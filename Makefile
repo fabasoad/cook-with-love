@@ -9,8 +9,7 @@ build:
 	@pnpm run build
 
 clean:
-	@rm -f pnpm-lock.yaml
-	@rm -rf node_modules
+	@pnpm clean --lockfile
 
 install:
 	@pnpm install

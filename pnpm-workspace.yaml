@@ -1,9 +1,10 @@
 allowBuilds:
   core-js: true
 minimumReleaseAgeExclude:
-  - serialize-javascript@7.0.3
-  - serialize-javascript@7.0.5
+  - js-yaml@4.1.2 || 5.2.0
 overrides:
+  gray-matter>js-yaml: ^3.14.1
+  js-yaml@<5.0.0: ^5.2.0
   serialize-javascript@<7.0.5: ^7.0.5
   serialize-javascript@<=7.0.2: ^7.0.3
   sirv@<3.0.2: ^3.0.2

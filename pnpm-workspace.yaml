@@ -1,8 +1,5 @@
 allowBuilds:
   core-js: true
-minimumReleaseAgeExclude:
-  - serialize-javascript@7.0.3
-  - serialize-javascript@7.0.5
 overrides:
   serialize-javascript@<7.0.5: ^7.0.5
   serialize-javascript@<=7.0.2: ^7.0.3

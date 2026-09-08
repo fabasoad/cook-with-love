@@ -2,11 +2,8 @@ allowBuilds:
   core-js: true
 minimumReleaseAgeExclude: []
 overrides:
-  js-yaml@<5.3.0: ^5.3.0
-  nanoid@<6.0.1: ^6.0.1
-  serialize-javascript@<7.1.0: ^7.1.0
+  serialize-javascript@<7.1.1: ^7.1.1
   sirv@<3.0.2: ^3.0.2
   uuid@<14.0.2: ^14.0.2
-  ws@<8.21.3: ^8.21.3
   qs@<6.16.0: ^6.16.0
-  image-size: "npm:image-size-next@^2.1.1"
+  image-size: "npm:image-size-next@2.1.1"

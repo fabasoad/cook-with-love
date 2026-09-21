@@ -6,4 +6,3 @@ overrides:
   sirv@<3.0.2: ^3.0.2
   uuid@<14.0.2: ^14.0.2
   qs@<6.16.0: ^6.16.0
-  image-size: "npm:image-size-next@2.1.1"
